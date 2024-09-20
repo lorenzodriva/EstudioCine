@@ -17,6 +17,12 @@ class Program
         listaActores.Add(actor4);
 
         Director director1 = new Director("Damian Szifron");
+        Director director2 = new Director("Cristopher Nolan");
+        List<Director> listaDirectores = new List<Director>()
+        { 
+            new Director("James Cameron"),
+            new Director("Steven Spielberg")
+        };
 
         Pelicula pelicula1 = new Pelicula("Relatos Salvajes", Genero.Drama, "21/8/2014", director1 , listaActores );
         pelicula1.MostrarDetalles();

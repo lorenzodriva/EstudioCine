@@ -11,8 +11,8 @@ namespace EstudioCine
         public string Titulo { get; set; }
         public Genero Genero {  get; set; }
         public string FechaEstreno { get; set; }
-        public Director Director { get; set; }
-        List<Actor> Reparto { get; set; }
+        public List<Director> Directores { get; set; }
+        public List<Actor> Reparto { get; set; }
 
         public Pelicula(string titulo, Genero genero, string fechaEstreno, Director director, List<Actor> reparto)
         {
